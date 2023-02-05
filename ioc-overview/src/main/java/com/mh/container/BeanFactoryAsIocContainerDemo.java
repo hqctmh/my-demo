@@ -6,6 +6,7 @@ import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -20,9 +21,7 @@ public class BeanFactoryAsIocContainerDemo {
         //加载配置
         int beanDefinitionsCount = reader.loadBeanDefinitions(location);
         System.out.println("Bean 定义加载的数量"+beanDefinitionsCount);
-
         lookupByCollectionType(beanFactory);
-
     }
 
     private static void lookupByCollectionType(BeanFactory beanFactory) {
