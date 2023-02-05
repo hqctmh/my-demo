@@ -4,7 +4,7 @@
       xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user" class="com.mh.model.User"  primary="true">
+    <bean id="user" class="com.mh.ioc.model.User" primary="true">
         <property name="id" value="1"/>
         <property name="name" value="test"/>
     </bean>
@@ -13,7 +13,7 @@
         <property name="targetBeanName" value="user"/>
     </bean>
 
-    <bean id="superUser" class="com.mh.model.SuperUser" parent="user">
+    <bean id="superUser" class="com.mh.ioc.model.SuperUser" parent="user">
         <property name="address" value="testAffress"/>
     </bean>
 </beans>

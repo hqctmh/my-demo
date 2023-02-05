@@ -1,12 +1,11 @@
- package com.mh.container;
+ package com.mh.ioc.container;
 
-import com.mh.model.User;
+import com.mh.ioc.model.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**

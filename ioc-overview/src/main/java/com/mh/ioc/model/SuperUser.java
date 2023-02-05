@@ -1,6 +1,6 @@
-package com.mh.model;
+package com.mh.ioc.model;
 
-import com.mh.annotation.Super;
+import com.mh.ioc.annotation.Super;
 
 @Super
 public class SuperUser extends User {

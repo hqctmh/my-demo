@@ -1,4 +1,4 @@
-package com.mh;
+package com.mh.bean;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.mh.definition;
+package com.mh.bean.definition;
 
-import com.mh.model.User;
+import com.mh.ioc.model.User;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
@@ -29,7 +29,6 @@ public class BeanDefinitionCreationDemo {
                 .add("name", "test");
 
         genericBeanDefinition.setPropertyValues(propertyValues);
-
 
     }
 }

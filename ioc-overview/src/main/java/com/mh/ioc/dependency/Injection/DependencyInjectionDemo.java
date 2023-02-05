@@ -1,15 +1,11 @@
-package com.mh.dependency.Injection;
+package com.mh.ioc.dependency.Injection;
 
-import com.mh.annotation.Super;
-import com.mh.model.User;
-import com.mh.repository.UserRepository;
+import com.mh.ioc.repository.UserRepository;
+import com.mh.ioc.model.User;
 import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.env.Environment;
-
-import java.util.Map;
 
 /**
  * 1.通过名称查找

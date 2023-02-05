@@ -1,7 +1,7 @@
-package com.mh.dependency.lookup;
+package com.mh.ioc.dependency.lookup;
 
-import com.mh.annotation.Super;
-import com.mh.model.User;
+import com.mh.ioc.annotation.Super;
+import com.mh.ioc.model.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectFactory;

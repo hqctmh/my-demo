@@ -1,4 +1,4 @@
-package com.mh;
+package com.mh.ioc;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

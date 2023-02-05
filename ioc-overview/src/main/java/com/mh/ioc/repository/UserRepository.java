@@ -1,6 +1,6 @@
-package com.mh.repository;
+package com.mh.ioc.repository;
 
-import com.mh.model.User;
+import com.mh.ioc.model.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ObjectFactory;
 

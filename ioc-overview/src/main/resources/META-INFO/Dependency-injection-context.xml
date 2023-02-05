@@ -7,7 +7,7 @@
    <import resource="Dependency-lookup-context.xml"/>
 
 
-    <bean id="userRepository" class="com.mh.repository.UserRepository" autowire="byType">
+    <bean id="userRepository" class="com.mh.ioc.repository.UserRepository" autowire="byType">
 <!--        手动配置-->
 <!--        <property name="users">-->
 <!--            <util:list>-->

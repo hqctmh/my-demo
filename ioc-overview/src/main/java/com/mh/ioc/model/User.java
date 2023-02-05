@@ -1,4 +1,4 @@
-package com.mh.model;
+package com.mh.ioc.model;
 
 public class User {
     private Long id;
@@ -26,5 +26,11 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+    public static User createUser() {
+        User user = new User();
+        user.setId(1L);
+        return user;
     }
 }
