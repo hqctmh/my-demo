@@ -4,6 +4,7 @@ import com.mh.container.AnnotationApplicationContestAsIocContainerDemo;
 import com.mh.model.User;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.ListableBeanFactory;
+import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionReaderUtils;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
@@ -24,13 +25,16 @@ public class AnnotationBeanDefinitionDemo {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
 
+        //1. 通过@Bean 方式定义
+
+        //2. 通过@Component方式
+//        applicationContext.scan("com.mh");
+
+        //3. 通过@Import来进行导入
         //注册 Configuration Class(配置类)
         applicationContext.register(AnnotationBeanDefinitionDemo.class);
-        applicationContext.scan("com.mh");
+
         applicationContext.refresh();
-        //1. 通过@Bean 方式定义
-        //2. 通过@Component方式
-        //3. 通过@Import来进行导入
 
         // 通过BeanDefinition注册 API实现
         // 命名 Bean 的注册方法
