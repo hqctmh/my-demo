@@ -1,4 +1,4 @@
-package com.mh.lookup;
+package com.mh.dependency.lookup;
 
 import com.mh.annotation.Super;
 import com.mh.model.User;

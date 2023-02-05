@@ -1,4 +1,4 @@
-package com.mh.Injection;
+package com.mh.dependency.Injection;
 
 import com.mh.annotation.Super;
 import com.mh.model.User;
