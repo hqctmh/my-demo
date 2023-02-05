@@ -1,7 +1,7 @@
 <project>
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.mh</groupId>
-   <version>1.0</version>
+   <version>1.0.0-SNAPSHOT</version>
    <artifactId>my-demo</artifactId>
    <packaging>pom</packaging>
    <name>my-demo</name>
@@ -18,6 +18,7 @@
 
       <module>poi-demo</module>
       <module>ioc-overview</module>
+      <module>spring-bean</module>
    </modules>
 
    <dependencyManagement>

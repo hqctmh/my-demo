@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.mh</groupId>
         <artifactId>my-demo</artifactId>
-        <version>1.0</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>poi-demo</artifactId>
