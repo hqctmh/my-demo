@@ -53,6 +53,8 @@ public class Test2 {
                     }
                 });
 
+        System.out.println();
+
     }
 
     private static Supplier<Collection<?>> getCollectionSupplier() {
